@@ -38,6 +38,7 @@ public abstract class Animal {
    - 子类必须实现所有抽象方法，否则子类也必须声明为抽象类。
 
 2. **继承抽象类**  
+
    ```java
    public class Dog extends Animal {
        // 实现父类的抽象方法
@@ -50,6 +51,7 @@ public abstract class Animal {
 
 
 #### **三、抽象类 vs. 接口**
+
 | 特性               | 抽象类                     | 接口                       |
 |--------------------|----------------------------|----------------------------|
 | 关键字             | `abstract class`           | `interface`                |
